@@ -16,11 +16,13 @@ Here we focus on Boston, MA. Feel free to apply the analysis to other cities as 
 - Rolling predictions
 
 ## Requirements
-- Python 3.7+
-- Pandas
-- NumPy 
-- Scikit-learn
-- Matplotlib
-- Seaborn
-
+- pandas>=1.3.0
+- numpy>=1.20.0
+- matplotlib>=3.4.0
+- seaborn>=0.11.0
+- scipy>=1.7.0
+- statsmodels>=0.13.0
+- ipython>=7.0.0
+- scikit-learn>=0.24.0
+- plotly>=5.0.0
 
