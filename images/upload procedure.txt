@@ -1,0 +1,21 @@
+1) cd C:\Users\luis_\OneDrive\Desktop\LUIS\PROJETOS\GITHUB     -     navegue ao diretório
+
+2) echo > README.md    -   cria arquivo README
+
+3) git add .         -    adiciona todas as files a staging area
+
+4) git commit -m "initial commit"     -    commit the changes on the files put on staging área
+
+5) git branch -M main       -      acessando main branch
+
+6) git remote add origin https://github.com ...    -     apontar repositório remoto para onde faremos upload
+
+7) git push -u origin main         -   realiza o upload
+
+
+***Obs.:  Se o passo 7) apontar "error: failed to push some refs",
+          utilize:
+
+          1)  git pull origin main --rebase       -   integrar as mudanças do remoto ao seu local
+          2)  git git push -u origin main         -   realiza o upload
+
