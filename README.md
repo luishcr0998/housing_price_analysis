@@ -22,7 +22,7 @@
 
 ## 🔍 Overview
 
-This project develops a sophisticated short-term prediction model for residential property values using Zillow Group's comprehensive real estate data. The analysis captures representative dwelling costs and market fluctuations across various locations and property types.
+In this project I implement a short-term prediction model for residential property values using Zillow Group's comprehensive real estate data. The analysis captures representative dwelling costs and market fluctuations across various locations and property types.
 
 While the primary focus is on the Boston, MA real estate market, the methodology is designed to be adaptable to other metropolitan areas, providing valuable insights for homebuyers, investors, and real estate professionals.
 
@@ -83,9 +83,6 @@ Where:
    - Rolling window predictions for stability assessment
    - Comparison with benchmark models (ARIMA, Prophet)
 
-## 📁 Project Structure
-
-The analysis is contained in a well-documented Jupyter notebook (`housing_prices_analysis.ipynb`) that guides users through each step of the modeling process with detailed explanations and visualizations.
 
 ## 📊 Visualizations
 
@@ -105,14 +102,6 @@ The additive forecasting model provides:
 - Seasonal patterns in the Boston housing market
 - Comparative analysis with traditional forecasting methods
 - Actionable insights for market timing decisions
-
-## 💻 Technologies Used
-
-- **Data Processing**: pandas (1.3+), numpy (1.20+)
-- **Statistical Analysis**: scipy (1.7+), statsmodels (0.13+)
-- **Machine Learning**: scikit-learn (0.24+)
-- **Visualization**: matplotlib (3.4+), seaborn (0.11+), plotly (5.0+)
-- **Development Environment**: Jupyter/IPython (7.0+)
 
 ## 🚀 Installation
 
@@ -138,15 +127,6 @@ pip install -r requirements.txt
    ```
 3. Run the cells sequentially to reproduce the analysis
 4. Modify parameters as needed for different scenarios or geographic regions
-
-## 🔮 Future Work
-
-- Extension to additional metropolitan areas for comparative analysis
-- Integration of external economic indicators (interest rates, employment data)
-- Implementation of deep learning approaches (LSTM, Transformer models)
-- Development of a web-based interactive dashboard
-- Incorporation of geospatial analysis for neighborhood-level predictions
-- Real-time data integration for continuously updated forecasts
 
 ## 📜 License
 
